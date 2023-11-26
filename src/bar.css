@@ -1,0 +1,80 @@
+.bar {
+  width: 300px;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 17px;
+  margin-top: 44px;
+}
+.hum {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.hum span {
+  margin-top: 15px;
+  padding: 30px;
+}
+.cen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+.str {
+  display: flex;
+  justify-content: space-around;
+}
+.line1 {
+  width: 50px;
+  height: 10px;
+  background-color: green;
+  border-radius: 9px;
+}
+.line1 p {
+  margin-top: -23px;
+}
+.line2 {
+  width: 50px;
+  height: 10px;
+  background-color: green;
+  border-radius: 9px;
+}
+.line2 p {
+  margin-top: -23px;
+}
+.side {
+  margin-left: 115px;
+  position: relative;
+  top: -12px;
+}
+.wrap {
+  width: 50px;
+  height: 10px;
+  border-radius: 12px;
+  background-color: gray;
+}
+.line3 {
+  width: 20px;
+  height: 9px;
+  background-color: green;
+  border-radius: 12px;
+}
+.cir {
+  width: 120x;
+  height: 80px;
+  border-radius: 100%;
+  border: 12px solid black;
+  border-style: dashed;
+  border-bottom: none;
+  border-bottom: aqua;
+}
+
+@media only screen and (max-width: 900px) {
+  .bar {
+    width: 150px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 17px;
+    margin-top: 44px;
+  }
+}
